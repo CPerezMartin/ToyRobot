@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>HTML file with JS</title>
+  <script type="text/javascript" src="src/toyRobot.js">
+  </script>
+  <link rel="stylesheet" href="css/toyRobot.css">
+</head>
+
+<body>
+  <h1 id="title" class="title main">Toy Robot Simulator</h1>
+  <div class="container">
+    <textarea rows="3" cols="100" id="console" class="screen" readonly>Console</textarea>
+    <div>
+      <label class="lbl-input">Input Area</label>
+      <textarea rows="3" cols="100" id="input" class="screen" autofocus></textarea>
+    </div>
+    <div class="button-nav">
+    <button id="btn-run" type="button" class="btn btn-run" onclick="run_robot()">Run</button>
+    <button id="btn-clear" type="button" class="btn btn-clear" onclick="clear_robot()">Clear</button>
+  </div>
+  </div>
+
+
+
+</body>
